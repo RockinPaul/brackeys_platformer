@@ -239,13 +239,25 @@ shape = SubResource("WorldBoundaryShape2D_p57ef")
 position = Vector2(56, 35)
 
 [node name="Coin2" parent="Coins" instance=ExtResource("4_lbhrr")]
-position = Vector2(143, 36)
+position = Vector2(158, 9)
 
 [node name="Coin4" parent="Coins" instance=ExtResource("4_lbhrr")]
 position = Vector2(400, 4)
 
 [node name="Coin3" parent="Coins" instance=ExtResource("4_lbhrr")]
 position = Vector2(145, -42)
+
+[node name="Coin5" parent="Coins" instance=ExtResource("4_lbhrr")]
+position = Vector2(293, 9)
+
+[node name="Coin6" parent="Coins" instance=ExtResource("4_lbhrr")]
+position = Vector2(348, -20)
+
+[node name="Coin7" parent="Coins" instance=ExtResource("4_lbhrr")]
+position = Vector2(445, -21)
+
+[node name="Coin8" parent="Coins" instance=ExtResource("4_lbhrr")]
+position = Vector2(605, -68)
 
 [node name="Platforms" type="Node" parent="."]
 
