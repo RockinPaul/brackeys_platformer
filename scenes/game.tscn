@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=4 uid="uid://bd8ohgqwgxjha"]
+[gd_scene load_steps=18 format=4 uid="uid://bd8ohgqwgxjha"]
 
 [ext_resource type="Script" uid="uid://71c0whgov3v0" path="res://scripts/game_manager.gd" id="1_gee14"]
 [ext_resource type="PackedScene" uid="uid://txwblaptrhdn" path="res://scenes/player.tscn" id="1_uwrxv"]
@@ -9,7 +9,6 @@
 [ext_resource type="PackedScene" uid="uid://bas7oc10f6fa5" path="res://scenes/slime.tscn" id="6_p57ef"]
 [ext_resource type="FontFile" uid="uid://hnjnjv48hnk8" path="res://assets/fonts/PixelOperator8.ttf" id="7_u5sy4"]
 [ext_resource type="FontFile" uid="uid://dj7axapt8xcem" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="9_0tnpc"]
-[ext_resource type="AudioStream" uid="uid://duin1tmtkxl4o" path="res://assets/music/time_for_adventure.mp3" id="10_vtaks"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iywne"]
 texture = ExtResource("2_yqjtg")
@@ -451,8 +450,3 @@ offset_bottom = 9.0
 theme_override_fonts/font = ExtResource("7_u5sy4")
 theme_override_font_sizes/font_size = 8
 text = "Jump wisely!"
-
-[node name="Music" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("10_vtaks")
-autoplay = true
-bus = &"Music"
