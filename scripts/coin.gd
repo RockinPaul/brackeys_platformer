@@ -9,8 +9,12 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+	
+
+@onready var game_manager: Node = %GameManager
 
 
 func _on_body_entered(body: Node2D) -> void:
+	game_manager.add_point()
 	print("+1 coin!")
 	queue_free()
